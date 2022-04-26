@@ -38,7 +38,7 @@ Check out [SLforge homepage](https://github.com/verivital/slsf_randgen/wiki) for
 
 ### SLEMI: EMI-based Validation of Cyber-Physical System Development Tool Chain
 
-Check out [SLEMI homepage](https://github.com/shafiul/slemi/wiki)for latest news, running the tools and to contribute.
+Check out [SLEMI homepage](https://github.com/shafiul/slemi/wiki) for latest news, running the tools and to contribute.
 
 
 
