@@ -1,6 +1,6 @@
 # Live Block Mutation of CPS Models for Detecting Simulink Compiler Bugs
 
-We are investigating automated _Equivalence Modulo Input (EMI)_-based testing of commercial cyber-physical system development tool chains (e.g. MATLAB/Simulink). We present following three independant tools in this repository:
+We are investigating live block mutation of commercial cyber-physical system development tool chains (e.g. MATLAB/Simulink). We present following three independant tools in this repository:
 
 - [Rapid Experimentation Framework](+covexp/)
 - [Mutant Generator](+emi/)
