@@ -14,7 +14,7 @@ Our SLEMI paper has been accepted at the prestigious 42th International Conferen
 
 ## Requirements
 
-MATLAB R2018a with default Simulink toolboxes
+MATLAB R2021b with default Simulink toolboxes
 
 ## Installation
 
@@ -32,13 +32,18 @@ Please use `git` to properly install all third-party dependencies:
 ## Randomly Generated Seed Models
 
 We use the open source *SLforge* tool to generate valid Simulink models. 
-Although we initially forked from the project, our current version is independant of SLforge and its predecessor CyFuzz
+
+We use the open source *SLEMI* tool to compare Simulink models in EMI mode. 
+
+Although we initially forked from the project, our current version is independant of SLEMI and its predecessor SLforge.
 
 ### SLforge: Automatically Finding Bugs in a Commercial Cyber-Physical Systems Development Tool
 
 Check out [SLforge homepage](https://github.com/verivital/slsf_randgen/wiki) for latest news, running the tools and to contribute.
 
+### SLEMI: EMI-based Validation of Cyber-Physical System Development Tool Chain
 
+Check out [SLEMI homepage](https://github.com/shafiul/slemi/wiki)for latest news, running the tools and to contribute.
 ## Acknowledgement 
 
 
