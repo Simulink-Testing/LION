@@ -2,9 +2,9 @@
 
 We are investigating live block mutation of commercial cyber-physical system development tool chains (e.g. MATLAB/Simulink). We present following three independant tools in this repository:
 
-- [Rapid Experimentation Framework](+covexp/)
-- [Mutant Generator](+emi/)
-- [Differential Tester](+difftest/)
+- [CPS Profiling](+covexp/)
+- [CPS Mutation](+emi/)
+- [Differential Testing](+difftest/)
 
 
 ## Requirements
