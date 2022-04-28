@@ -14,7 +14,7 @@ MATLAB R2021b with default Simulink toolboxes
 
 Here we list all the bug in  article LION RQ2:
 
-05318668	S-Function Too many output arguments.
+05318668	S-Function Too many output arguments.</br>
 05359223	Compilation error prompts an unreasonable exception.
 05359149	Equivalent mathematical function modules compile different prompts.
 05370105	Exception in accelerate mode for if block.
