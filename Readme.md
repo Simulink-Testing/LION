@@ -23,24 +23,32 @@ Please use `git` to properly install all third-party dependencies:
 ## Hello, World!
 ### CPS Profiling  
 First, you need to put the available SLforge model into the reproduce folder and enter the following statement on the MATLAB command line   
+
     setenv('SLSFCORPUS','<YOUR LION PROJECT URL>/reproduce')
     setenv('COVEXPEXPLORE','<YOUR LION PROJECT URL>//reproduce')   
+    
 Before the official profiling, you can modify the parameters according to your own needs in the covcfg.m file,then use command:   
+
     covexp.covcollect()
+
 To Profiling the CPS.
 ### CPS Mutation 
 The details of variant generation are set in the +emi/cfg.m file. After setting, use the
+
     emi.go() 
+    
 statement to generate variants
 ### Differential Testing 
-Use 
+Use
+
     emi.report 
+    
 to view the EMI differential test results of the variant model and the original model.
 If you need to check out the mutation in EMI different mode result , use
-    accfinddiff
-and wait for the result in folder <YOUR LION PROJECT URL>/bugsave
-    
 
+    accfinddiff
+    
+and wait for the result in folder <YOUR LION PROJECT URL>/bugsave
 ## Randomly Generated Seed Models And Compare In EMI Mode
 
 We use the open source *SLforge* tool to generate valid Simulink models. 
