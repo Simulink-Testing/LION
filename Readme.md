@@ -48,7 +48,7 @@ If you need to check out the mutation in EMI different mode result , use
 
     accfinddiff
     
-and wait for the result in folder <YOUR LION PROJECT URL>/bugsave
+and wait for the result in folder bugsave/
 ## Randomly Generated Seed Models And Compare In EMI Mode
 
 We use the open source *SLforge* tool to generate valid Simulink models. 
