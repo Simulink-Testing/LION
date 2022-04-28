@@ -3,7 +3,7 @@
 We are investigating live block mutation of commercial cyber-physical system development tool chains (e.g. MATLAB/Simulink). We present following three independant tools in this repository:
 
 - [CPS Profiling](+covexp/)
-- [CPS Mutation](+NewMutator/)
+- [CPS Mutation](NewMutator/)
 - [Differential Testing](+difftest/)
 
 ## OurWorks
@@ -31,7 +31,7 @@ Here we list all the bug in  article LION RQ2:
 05436071	Ramp block is affected and produces different data in different modes
 05434051	Sinwave module data is inconsistent in different compilation![Uploading image.png…]()
 
-to see more detail click this [BugFile](+BugFile/)
+to see more detail click this [BugFile](BugFile/)
 
 ## Requirements
 
