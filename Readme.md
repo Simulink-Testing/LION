@@ -6,10 +6,6 @@ We are investigating live block mutation of commercial cyber-physical system dev
 - [CPS Mutation](NewMutator/)
 - [Differential Testing](+difftest/)
 
-## Our Works
-
-MAT
-
 ## RQ2 Bug
 
 Here we list all the bug in  article LION RQ2:
@@ -31,7 +27,7 @@ Here we list all the bug in  article LION RQ2:
 [05436071](BugFile/05436071)    Ramp block is affected and produces different data in different modes.</br>
 [05434051](BugFile/05434051)    Sinwave module data is inconsistent in different compilation!</br>
 
-to see more detail about bug file , click this [BugFile](BugFile/)
+To see more detail about bug file , click this [BugFile](BugFile/)
 
 ## Requirements
 
