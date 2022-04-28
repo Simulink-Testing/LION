@@ -22,18 +22,20 @@ Please use `git` to properly install all third-party dependencies:
 
 ## Hello, World!
 ### CPS Profiling  
-    First, you need to put the available SLforge model into the reproduce folder and enter the following statement on the MATLAB command line
+First, you need to put the available SLforge model into the reproduce folder and enter the following statement on the MATLAB command line
     
     setenv('SLSFCORPUS','<YOUR LION PROJECT URL>/reproduce')
     setenv('COVEXPEXPLORE','<YOUR LION PROJECT URL>//reproduce')
     
-    Before the official profiling, you can modify the parameters according to your own needs in the covcfg.m file,then use command:
+Before the official profiling, you can modify the parameters according to your own needs in the covcfg.m file,then use command:
     
     covexp.covcollect()
     
-    To Profiling the CPS.
+To Profiling the CPS.
 ### CPS Mutation 
-    The details of variant generation are set in the +emi/cfg.m file. After setting, use the emi.go() statement to generate variants
+The details of variant generation are set in the +emi/cfg.m file. After setting, use the
+    emi.go() 
+statement to generate variants
 
 ### Differential Testing 
     
