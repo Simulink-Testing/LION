@@ -3,7 +3,7 @@
 We are investigating live block mutation of commercial cyber-physical system development tool chains (e.g. MATLAB/Simulink). We present following three independant tools in this repository:
 
 - [CPS Profiling](+covexp/)
-- [CPS Mutation](+emi/)
+- [CPS Mutation](+NewMutator/)
 - [Differential Testing](+difftest/)
 
 
